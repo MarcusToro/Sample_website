@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEETO BOOKINGS</TITLE>
+<link rel ="stylesheet" type = "text/css" href="cartstyles/cartstyles.css">
+<script src = "cartjs/cartjs.js">
+</script>
+</head>
+<body>
+<img class="logo" src="cartimages/logo.jpeg" width="200" height="200" alt="logo">
+<img class="user" src="cartimages/user.png" width="110" height="110" alt="user">
+
+
+<h1>MEETO BOOKINGS<h1>
+<h2>solution for your meeting room booking</h2>
+
+
+
+<ul class="navbar">
+	<li><a href="">Home</a></li>
+	<li><a href="">Meeting Rooms</a></li>
+	<li><a href="">My Bookings</a></li>
+	<li><a class="shownav" href="">My cart</a></li>
+	<li><a href="">About Us</a></li>
+	<li><a href="">Contact Us</a></li>
+</ul>
+
+<hr class="line1">
+
+<div class="userd">
+<button onclick="dropfunction()"  class="userdb">MY ACCOUNT</button>
+<div id="userdropdown" class="usercontent">
+    <a href="">Account</a>
+    <a href="">Sign up</a>
+    <a href="">Log out</a>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="logbox">
+<div class="cartnavbox">
+<ul class="cartnav">
+  <li><a class="cartnavopt" href="">Top Rated</a></li>
+  <li><a class="cartnavopt" href="">Last Added</a></li>
+  <li><a class="cartnavopt" href="">Mostly Used</a></li>
+  <li><a class="cartnavopt" href="">Super Luxury</a></li>
+</ul></div><br>
+<a href="https://www.ebay.com/"><img class="ad" src="cartimages/ad.png" alt="advertiesment" width="250"></a>
+<a href="https://www.alibaba.com/"><img class="ad" src="cartimages/ad.png" alt="advertiesment" width="250"></a></div>
+<div class="cart">
+
+		<div class="cartgallery">
+		<a  href="">
+		<img src="cartimages/mt1.jpg" alt="meeting room image" >
+		</a>
+		<div class="cartdesc" >ID:CO/ML/0076</div>
+		</div>
+		
+		
+		<div class="cartgallery">
+		<a  href="">
+		<img src="cartimages/mt2.jpg" alt="meeting room image" >
+		</a>
+	    <div class="cartdesc">ID:CO/CG/1185</div>
+        </div>
+		
+		<div class="cartgallery">
+		<a  href="">
+		<img src="cartimages/mt4.jpg" alt="meeting room image" >
+		</a>
+	    <div class="cartdesc">ID:MA/0008</div>
+        </div>
+		<div class="mt1b" >
+		    <button id="b1" disabled >Book Now</button>
+			<button>Remove</button>
+		</div>
+		<div class="mt2b" >
+		    <button id="b2" disabled >Book Now</button>
+			<button>Remove</button>
+		</div>
+		<div class="mt3b" >
+		    <button id="b3" disabled >Book Now</button>
+			<button>Remove</button>
+		</div>
+		
+</div>
+<div class="payment">
+ <table>
+	<tr>
+	<th>Enter Your Card Details</th>
+	</tr>
+	<tr>
+	<td> <input type="radio" id="radio1" class="radiobtn" name="payment"  > </td>
+	<td> <img src="cartimages/visa.jpg" width=50 height=50> </td>
+	</tr>
+	<tr>
+	<td><input type="radio" id="radio2" class="radiobtn"  name="payment"  > </td>
+	<td> <img src="cartimages/american express.png" width=50 height=50> </td>
+	</tr>
+	<tr>
+	<td> <input type="radio" id="radio3"  class="radiobtn" name="payment"  > </td>
+	<td> <img src="cartimages/master card.png" width=50 height=50> </td>
+	</tr>
+	<tr>
+	<form onsubmit(return checkpassword())>
+	<td>Enter Your Name</td>
+	<td> <input type="text" class="space" id="name" name="fullname" required > </td>
+	</tr>
+	<tr>
+	<td>Enter Your phone Number</td>
+	<td> <input type="phone" class="space" id="phone" name="telno" required> </td>
+	</tr>
+	<tr>
+	<td>Enter Your Card Number</td>
+	<td> <input type="text" class="space" id="card number" name="cardno" placeholder="0123456789" required></textarea> </td>
+	</tr>
+	<tr>
+	<td>Enter Pin Number</td>
+	<td> <input type="password" class="space" id="pwd1" name="fullname" pattern={0-9}[10] required> </td>
+	</tr>
+	<tr>
+	<td>Re-Enter Pin Number</td>
+	<td> <input type="password" class="space" id="pwd2" name="fullname" pattern={0-9}[10] > </td>
+	</tr>
+	<tr>
+	<td>I Agree To the Terms and Privacy Policy</td>
+	<td> <input type="checkbox" class="space" id="agreement" name="agree" onclick(enabledone())> </td>
+	</tr>
+	<tr>
+	<td><input type="submit" id="done" value="done" onclick(enablebook()) disabled></td>
+	</tr>
+	</form>	
+</table>
+ 
+</div>
+<div class="footer">
+    <div class="footercon">
+    <div class="footersec"></div>
+    <div class="footermenu">
+    <p class="quick">Quick Links</p>
+    <a href="">Home</a>
+    <a href="">Meeting Rooms</a>
+    <a href="">My Bookings</a>
+    <a href="">My cart</a>
+    <a href="">About us</a>
+	<a href="">Contact us</a>
+</div>
+<div class="footerform">
+<p class="feedback">Feedback</p>
+<input type="email" name="feedbackmail" class="feedbackmail" placeholder="Enter E-Mail Address" size="45px"><br>
+<textarea name="feedbackmessage" class="feedbacktext" placeholder="Your Message..."></textarea><br>
+<input type="button" class="feddbackbtn" value="Send"></button>
+ </div>
+ </div>
+</div>
+
+</body>
+</html>

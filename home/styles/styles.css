@@ -1,0 +1,311 @@
+body{
+	background-image:url("../images/pm3.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+h1{
+	font-size: 60px;
+	margin-top : -200px;
+	margin-left : 418px;
+	color: #00008B;
+}
+
+h2 {
+	margin-top : 190px;
+	margin-left : 439px;
+	font-size : 30px;
+	color:#696969;
+}
+
+.user{
+	position:relative;
+	left: 1030px;
+	bottom:80px;
+
+}
+
+.userdb{
+	  background-color:#686868;
+	  color: white;
+	  padding: 10px;
+	  font-size: 14px;
+	  border: none;
+	  cursor: pointer;
+	  position:relative;
+	  bottom:120px;
+	  left:1230px;
+}
+
+.userd{
+	position:relative;
+	display:inline-block;
+}
+
+.userdb:hover {
+  background-color: #0066cc;
+}
+.usercontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 114px;
+  overflow:auto;
+  bottom:8px;
+  left:1230px
+  }
+
+.usercontent a {
+	
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.usercontent a:hover {background-color: #0066cc;}
+
+.show {display:block;}
+
+.navbar{
+	list-style-type:none;
+	position:relative;
+	top:80px;
+	overflow:hidden;
+	background-color:#686868;
+	
+}
+li{
+	float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+li a:hover:not(.shownav) {
+  background-color: #0066cc;
+}
+
+.shownav {
+	position:relative;
+  background-color: #000066;
+  
+}
+/*.search{
+	position:relative;
+	right:1000px;
+	
+}*/
+.line1{
+	position:relative;
+	top:15px;
+}
+
+.logbox{
+  width: 250px;
+  opacity:0.7;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 8x;
+  position:sticky;
+  top:0;
+}
+
+.banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px;
+  height:450px;
+  width:800px;
+  
+}
+
+.homeban{
+	position:relative;
+	left:-200px;
+	height:800px;
+	width:1200px;
+}
+.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  position:relative;
+  left:500px;
+  bottom:-20px;
+  
+}
+
+.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.hometxt{
+	color:white;
+	font-size:30px;
+	font-family:Lucida Console;
+	position:relative;
+	bottom:25px;
+}
+.homecon{
+	border: 2px;
+	background:#000000;
+  padding: 10px;
+  height:400px;
+  width:400px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position:relative;
+  left:450px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  
+}
+
+.sign{
+	padding:10px 20px;
+	color:#000000;
+	background-color:white;
+	font-size:20px;
+	border-radius:10px;
+	position:relative;
+	bottom:-50px;
+	left:100px;
+	float:left;
+}
+
+.sign:hover:not(.shownav) {
+  background-color: #FF0000;
+  }
+  
+.log{
+	padding:10px 20px;
+	color:#000000;
+	background-color:white;
+	font-size:20px;
+	border-radius:10px;
+	position:relative;
+	left:-40px;
+	bottom:-120px;
+}
+
+.log:hover:not(.shownav) {
+  background-color: #0066cc;
+  }
+  
+.videotxt{
+	color:black;
+	font-size:60px;
+	font-family:arial;
+}
+
+.footer {
+    position: relative;
+    background:#000033;
+    color:#e6ffff;
+    height: 270px;
+}
+
+.footercon {
+    height: 250px;
+    display: flex;
+}
+
+.footermenu {
+    margin-top: -5px;
+}
+
+.footermenu a {
+    display: block;
+    color:#e6ffff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left:-70px;
+    font-size: 15px;
+    padding: 8px 7px;
+    font-weight: bold;
+}
+
+.footermenu a:hover {
+    color:#33cc33;
+    transition: 0.5s;
+    margin-left:-65px;
+}
+
+.quick {
+    margin-left:-65px;
+    font-size: 25px;
+}
+
+.footercon {
+    margin-top: -5px;
+    margin-left: 150px;
+}
+.footerform{
+	margin-top:-5px;
+	margin-left:300px;
+}
+
+.feedback {
+    font-size: 30px;
+}
+
+.feedbackmail {
+    width: 100%;
+	margin: 6px;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FF0C2C;
+    font-size: 12px;
+}
+
+.feedbacktext {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FF0C2C;
+}
+
+.feddbackbtn {
+    width: 100%;
+    background-color:#cce6ff
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feddbackbtn:hover {
+    background-color:#33cc33;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.feedbackmail:focus {
+    border: 2px solid #33cc33;
+}
+
+.feedbacktext:focus {
+    border: 2px solid #33cc33;;
+}
+
+
+	
+

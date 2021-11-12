@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEETO BOOKINGS</TITLE>
+<link rel ="stylesheet" type = "text/css" href="styles/forget.css">
+<script src = "js/forget.js">
+</script>
+</head>
+<body>
+<img class="logo" src="images/logo.jpeg" width="200" height="200" alt="logo">
+<img class="user" src="images/user.png" width="110" height="110" alt="user">
+
+<h1>MEETO BOOKINGS<h1>
+<h2>solution for your meeting room booking</h2>
+
+<ul class="navbar">
+	<li><a class="shownav" href="#home">Home</a></li>
+	<li><a href="">Meeting Rooms</a></li>
+	<li><a href="">My Bookings</a></li>
+	<li><a href="">My cart</a></li>
+	<li><a href="">About Us</a></li>
+	<li><a href="">Contact Us</a></li>
+</ul>
+<div class="userd">
+<button onclick="dropfunction()"  class="userdb">MY ACCOUNT</button>
+<div id="userdropdown" class="usercontent">
+    <a href="">Account</a>
+    <a href="login.html">Sign up</a>
+    <a href="">Log out</a>
+  </div>
+</div>
+
+<div class="forget">
+
+<form>
+
+<h3 align="center" style="color:#fff;"> Forget Password</h3>
+<h5 style="font-size:14px; color:yellow;">Enter email here that
+you used on your account. We send link on your email to reset your password.</h5>
+
+<input type="text" name="username" placeholder="Enter Your Email" >
+<br><br>
+<input type="button" value="Send" onclick="myFunction()">
+<br><br>
+<a href="login.html" style="text-decoration:none; color:cyan;
+margin-left: 45px;  font-family: Tahoma, Geneva, sans-serif;"> Go back to Home Page </a>
+<br><br>
+
+<div id="msg"> Link send to your email successfully!</div>
+
+</form>
+</div>
+<div class="footer">
+    <div class="footercon">
+    <div class="footersec"></div>
+    <div class="footermenu">
+    <p class="quick">Quick Links</p>
+    <a href="">Home</a>
+    <a href="">Meeting Rooms</a>
+    <a href="">My Bookings</a>
+    <a href="">My cart</a>
+    <a href="">About us</a>
+	<a href="">Contact us</a>
+</div>
+<div class="footerform">
+<p class="feedback">Feedback</p>
+<input type="email" name="feedbackmail" class="feedbackmail" placeholder="Enter E-Mail Address" size="45px"><br>
+<textarea name="feedbackmessage" class="feedbacktext" placeholder="Your Message..."></textarea><br>
+<input type="button" class="feddbackbtn" value="Send"></button>
+ </div>
+ </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEETO BOOKINGS</TITLE>
+<link rel ="stylesheet" type = "text/css" href="styles/congrats.css">
+<script src = "js/congrats.js">
+</script>
+<style>
+	#msg {
+	visibility:hidden;
+	min-width: 250px;
+	background-color:yellow;
+	color: #000;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	right: 30%;
+	top: 30px;
+	font-size: 17px;
+	margin-right: 30px;
+	}
+	
+	#msg.show {
+		visibility: visible;
+		-webkit-animation: fadein 0.5s, fadeout0.5s 2.5s;
+		animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+		
+	@-webkit-keyframes fadein {
+	from {top:0; opacity: 0;}
+	to {top: 30px; opacity: 1;}
+	}
+	
+	@keyframes fadein {
+	from {top: 0;opacity: 0;}
+	to{top: 30px; opacity:1;}
+	}
+	
+	@-webkit-keyframes fadeout {
+	from {top:30px; opacity: 1;}
+	to {top: 0; opacity: 0;}
+	}
+	
+	@keyframes fadeout {
+	from {top: 30px;opacity: 1;}
+	to{top: 0; opacity:0;}
+	}
+	
+
+	</style>
+	
+</head>
+<body>
+<img class="logo" src="images/logo.jpeg" width="200" height="200" alt="logo">
+<img class="user" src="images/user.png" width="110" height="110" alt="user">
+
+<h1>MEETO BOOKINGS<h1>
+<h2>solution for your meeting room booking</h2>
+
+<ul class="navbar">
+	<li><a class="shownav" href="#home">Home</a></li>
+	<li><a href="">Meeting Rooms</a></li>
+	<li><a href="">My Bookings</a></li>
+	<li><a href="">My cart</a></li>
+	<li><a href="">About Us</a></li>
+	<li><a href="">Contact Us</a></li>
+</ul>
+<div class="userd">
+<button onclick="dropfunction()"  class="userdb">MY ACCOUNT</button>
+<div id="userdropdown" class="usercontent">
+    <a href="">Account</a>
+    <a href="login.html">Sign up</a>
+    <a href="">Log out</a>
+  </div>
+</div>
+<div class="congrats">
+	<form>
+		<h3 style="color: white" >Log In Successful!</h3>
+		<a href="login.html" style="text-decoration: none; color:Cyan;">Go back to Home page</a>
+		<br><br>
+	</form>
+	
+</div>
+<div class="footer">
+    <div class="footercon">
+    <div class="footersec"></div>
+    <div class="footermenu">
+    <p class="quick">Quick Links</p>
+    <a href="">Home</a>
+    <a href="">Meeting Rooms</a>
+    <a href="">My Bookings</a>
+    <a href="">My cart</a>
+    <a href="">About us</a>
+	<a href="">Contact us</a>
+</div>
+<div class="footerform">
+<p class="feedback">Feedback</p>
+<input type="email" name="feedbackmail" class="feedbackmail" placeholder="Enter E-Mail Address" size="45px"><br>
+<textarea name="feedbackmessage" class="feedbacktext" placeholder="Your Message..."></textarea><br>
+<input type="button" class="feddbackbtn" value="Send"></button>
+ </div>
+ </div>
+</div>
+</body>
+</html>

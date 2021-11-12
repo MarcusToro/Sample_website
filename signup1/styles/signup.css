@@ -1,0 +1,268 @@
+body{
+	background-image:url("../images/back1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.logo {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+h1{
+	font-size: 60px;
+	margin-top : -200px;
+	margin-left : 418px;
+	color: #00008B;
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+
+h2 {
+	margin-top : 190px;
+	margin-left : 439px;
+	font-size : 30px;
+	color:#696969;
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+
+.user{
+	position:relative;
+	left: 1020px;
+	bottom:80px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+.userdb{
+	  background-color:#686868;
+	  color: white;
+	  padding: 10px;
+	  font-size: 14px;
+	  border: none;
+	  cursor: pointer;
+	  position:relative;
+	  bottom:60px;
+	  left:1230px;
+}
+
+.userd{
+	position:relative;
+	display:inline-block;
+}
+
+.userdb:hover {
+  background-color: #0066cc;
+  box-shadow: 10px 10px 5px #888888;
+}
+.usercontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 114px;
+  overflow:auto;
+  bottom:-50px;
+  left:1230px
+  }
+
+.usercontent a {
+	
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.usercontent a:hover {background-color: #0066cc;}
+
+.show {display:block;}
+
+.navbar {
+  list-style-type: none;
+  position:relative;
+  top:50px;
+  overflow: hidden;
+  background-color: #686868;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+li a:hover:not(.shownav) {
+  background-color: #0066cc;
+}
+
+.shownav {
+  background-color: #000066;
+}
+
+
+.signup {
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width: 250px;
+	margin: auto;
+    margin-top:80px;
+	height: 600px;
+	margin-left: 180px;
+	margin:0 auto;
+	margin-top: 90px;
+	box-shadow: 8px 8px 4px #000000;
+}
+form {
+	width: 240px;
+	text-align: center;
+}
+
+input {
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'play',sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	color: #fff;
+		box-shadow: 5px 5px 3px #000000;
+}
+input[type=button] {
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+input[type=button]:hover {
+	color: #fff;
+	background-color: black;
+}
+h3 {
+	color: #000;
+}
+.signup #error_message{
+margin-bottom: 20px;
+padding: 12px;
+color:	#FF0000;
+font-weight: bold;
+text-align:center;
+font-size: 15px;
+transition: all 0.5s ease;
+}
+::placeholder {
+	color:aliceblue;
+	opacity: 0.8;
+}
+
+.footer {
+    position: relative;
+    background:#000033;
+    color:#e6ffff;
+    height: 270px;
+}
+
+.footercon {
+    height: 250px;
+    display: flex;
+}
+
+.footermenu {
+    margin-top: -5px;
+}
+
+.footermenu a {
+    display: block;
+    color:#e6ffff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left:-70px;
+    font-size: 15px;
+    padding: 8px 7px;
+    font-weight: bold;
+}
+
+.footermenu a:hover {
+    color:#33cc33;
+    transition: 0.5s;
+    margin-left:-65px;
+}
+
+.quick {
+    margin-left:-65px;
+    font-size: 25px;
+}
+
+.footercon {
+    margin-top: -5px;
+    margin-left: 150px;
+}
+.footerform{
+	margin-top:-5px;
+	margin-left:300px;
+}
+
+.feedback {
+    font-size: 30px;
+}
+
+.feedbackmail {
+    width: 100%;
+	margin: 6px;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FF0C2C;
+    font-size: 12px;
+}
+
+.feedbacktext {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FF0C2C;
+}
+
+.feddbackbtn {
+    width: 100%;
+    background-color:#cce6ff
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feddbackbtn:hover {
+    background-color:#33cc33;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.feedbackmail:focus {
+    border: 2px solid #33cc33;
+}
+
+.feedbacktext:focus {
+    border: 2px solid #33cc33;;
+}

@@ -1,0 +1,139 @@
+body{
+	background-image:url("../images/back2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+h1{
+	font-size: 60px;
+	margin-top : -200px;
+	margin-left : 418px;
+	color: #00008B;
+	
+}
+
+h2 {
+	margin-top : 190px;
+	margin-left : 439px;
+	font-size : 30px;
+	color:#696969;
+}
+
+.user{
+	position:relative;
+	left: 1020px;
+	bottom:80px;
+
+
+}
+
+.userdb{
+	  background-color:#686868;
+	  color: white;
+	  padding: 10px;
+	  font-size: 14px;
+	  border: none;
+	  cursor: pointer;
+	  position:relative;
+	  bottom:60px;
+	  left:1230px;
+}
+
+.userd{
+	position:relative;
+	display:inline-block;
+}
+
+.userdb:hover {
+  background-color: #0066cc;
+  box-shadow: 10px 10px 5px #888888;
+}
+.usercontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 114px;
+  overflow:auto;
+  bottom:-50px;
+  left:1230px
+  }
+
+.usercontent a {
+	
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.usercontent a:hover {background-color: #0066cc;}
+
+.show {display:block;}
+
+.navbar {
+  list-style-type: none;
+  position:relative;
+  top:50px;
+  overflow: hidden;
+  background-color: #686868;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+li a:hover:not(.shownav) {
+  background-color: #0066cc;
+}
+
+.shownav {
+  background-color: #000066;
+}
+.Feedback {
+	background:rgba(44,62,80,0.7) ;
+	padding: 40px;
+	width: 400px;
+		border: 2px solid;
+		height: 400px;
+	box-shadow: 8px 8px 4px #000000;	
+}
+form {
+	width: 400px;
+	text-align: center;
+}
+input[type=button] {
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 2px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+input[type=button]:hover {
+	color: #fff;
+	background-color: black;
+}
+.back_mid{
+	border: 2px solid;
+	width: 400px;
+	height: 400px;
+	background:rgba(44,62,80,0.7) ;
+	padding: 40px;
+	box-shadow: 8px 8px 4px #000000;	
+}
+}
+
+

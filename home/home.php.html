@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEETO BOOKINGS</TITLE>
+<link rel ="stylesheet" type = "text/css" href="styles/styles.css">
+<script src = "js/homescript.js">
+</script>
+</head>
+<body>
+
+<a href="home.html">
+<img class="logo" src="images/logo.jpeg" width="200" height="200" alt="logo">
+</a>
+<img class="user" src="images/user.png" width="110" height="110" alt="user">
+
+
+<h1>MEETO BOOKINGS<h1>
+<h2>solution for your meeting room booking</h2>
+
+
+
+<ul class="navbar">
+	<li><a class="shownav" href="" style="margin-left:-40px; width:60px;">Home</a></li>
+	<li><a href="">Meeting Rooms</a></li>
+	<li><a href="">My Bookings</a></li>
+	<li><a href="">My cart</a></li>
+	<li><a href="">About Us</a></li>
+	<li><a href="">Contact Us</a></li>
+</ul>
+<form class="search" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+</form>
+
+
+<hr class="line1">
+
+<div class="userd">
+<button onclick="dropfunction()"  class="userdb">MY ACCOUNT</button>
+<div id="userdropdown" class="usercontent">
+    <a href="">Account</a>
+    <a href="">Sign up</a>
+    <a href="">Log out</a>
+  </div>
+</div>
+
+<br><br><br>
+
+<!--<div class="logbox">
+<img class="ad" src="images/ad.png" alt="advertiesment" width="250">
+</div>!-->
+
+
+</script>
+<div class="homecon">
+<center> <p class="hometxt" > FREE ONLINE BOOKING AND SCHEDULING FOR YOU</p> </center>
+<button class="sign" type="button">Sign Up for free</button>
+<button class="log" type="button">Log in</button>
+</div>
+
+<center><div class="banner" >
+  <img class="homeban" src="images/bn1.jpg">
+  <img class="homeban" src="images/bn2.jpg">
+  <img class="homeban" src="images/bn3.jpg">
+  <img class="homeban" src="images/bn4.jpg">
+</div>
+</center>
+
+<script>
+var ind = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("homeban");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  ind++;
+  if (ind > x.length) {ind = 1}    
+  x[ind-1].style.display = "block";  
+  setTimeout(carousel, 3000);    
+ 
+}
+
+</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+<p class="videotxt">TOUR</p>
+<video class="vid" width="600" height="400" controls>
+  <source src="images/tourvideo.mp4" type="video/mp4">
+</video>
+</center>
+
+<br><br><br><br><br>
+
+<div class="footer">
+    <div class="footercon">
+    <div class="footersec"></div>
+    <div class="footermenu">
+    <p class="quick">Quick Links</p>
+    <a href="">Home</a>
+    <a href="">Meeting Rooms</a>
+    <a href="">My Bookings</a>
+    <a href="">My cart</a>
+    <a href="">About us</a>
+	<a href="">Contact us</a>
+</div>
+<div class="footerform">
+<p class="feedback">Feedback</p>
+<input type="email" name="feedbackmail" class="feedbackmail" placeholder="Enter E-Mail Address" size="45px"><br>
+<textarea name="feedbackmessage" class="feedbacktext" placeholder="Your Message..."></textarea><br>
+<input type="button" class="feddbackbtn" value="Send"></button>
+ </div>
+ </div>
+</div>
+
+</body>
+</html>
